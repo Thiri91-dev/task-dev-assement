@@ -1,5 +1,9 @@
 import './bootstrap';
 import Vue from 'vue';
+import VueRouter from 'vue-router'; // Import Vue Router
+import router from './router'; // Import the router instance from router.js
+
+Vue.use(VueRouter);
 
 /**
  * Vue Components
@@ -12,6 +16,8 @@ Vue.component('BookListing', () => import('./components/BookListing.vue'));
 Vue.component('EditBook', () => import('./components/EditBook.vue'));
 
 
+
+
 /**
  * Bootstrapping
  *
@@ -20,4 +26,5 @@ Vue.component('EditBook', () => import('./components/EditBook.vue'));
  */
 const app = new Vue({
     el: '#app',
+    router,
 });
