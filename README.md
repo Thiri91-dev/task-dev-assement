@@ -1,10 +1,3 @@
-## Searchlight Cyber Full Stack Tech Test
-
-
-We recommend you spend a couple of hours tackling these items, it covers a range of abilities.
-Give it your best go!
-
-Please create a private git repository first, and commit often as you work your way through the points, at least for every point tackled.
 
 
 To Set Up the application run the following in the application directory
