@@ -13,23 +13,14 @@ npm install
 npm run watch
 ```
 
-You can then go to `localhost` in your browser, the landing page will be empty.
-
-We'd like you to have a go at tackling the following:
-
-- Update the landing page to match 'book-shop-listing.png' and add the ability to search for a Book Title
-- There's an issue with trying to update a book, find and resolve the issue.
-- Update the edit book page to correctly display the book data, shown in 'edit-book-filled.png' and submit an edited book.
-- All the seeded Books have a rating of 5, change the seeder so each book has a random value between 1 and 10.
-- You can currently delete books and the records be removed from the database, we want to keep those records. Enable the ability to Soft Delete books.
-- Add the ability within the API (no front end work needed) to create Genres and add multiple Genres to Books.
-- Add Unit Tests for the BookController update method.
-- Ensure the test can be built from scratch after completion.
-
-Handy Links
-- https://v2.vuejs.org/v2/guide/
-- https://tailwindcomponents.com/cheatsheet/
-- https://laravel.com/docs/10.x
+- Updated Landing Page: Designed and implemented the landing page to match the provided 'book-shop-listing.png' layout, incorporating a search functionality to allow users to search for book titles.
+- Resolved Book Update Issue: Identified and fixed the issue preventing book updates, ensuring the update functionality works correctly and reliably.
+- Enhanced Edit Book Page: Modified the Edit Book page to properly display existing book data, as shown in 'edit-book-filled.png', and enabled the successful submission of updated book information.
+- Modified Seeder for Random Ratings: Updated the database seeder so that each book now receives a random rating between 1 and 10, replacing the default static rating of 5.
+- Implemented Soft Delete for Books: Changed the book deletion process to implement soft deletes, preserving deleted records in the database rather than permanently removing them.
+- API Enhancement for Genres: Added API functionality to create genres and associate multiple genres with individual books, without requiring any frontend changes.
+- Unit Tests for BookController: Developed unit tests to validate the update method of the BookController, ensuring its accuracy and functionality.
+- Verified Build Process: Ensured that the entire application, including tests, can be built and run from scratch without any issues, confirming the project’s robustness and reliability.
 
 
 Designs
